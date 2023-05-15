@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: #214788;
+    width: 100vw;
+    height: auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.header h2{
+    color: white;
+    font-size: 2em;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 40px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.menu-icons{
+    display: flex;
+    font-size: 20px;
+}
+.fa-menu-icon{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+.fa-menu-icon:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.waitlist-border{
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.514);
+}
+.waitlist-logo{
+    width: fit-content;
+    margin: auto;
+}
+.exe-membersip{
+    text-align: center;
+}
+
+.waitlist{
+    max-width: 400px;
+    margin: auto;
+}
+.waitlist-input{
+    width: 100%;
+    border: 1px solid black;
+    padding-block: 0.5em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.waitlist-input > input{
+    width: 90%;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.waitlist-button{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    padding-block: 0.5em;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+.waitlist-button > a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    float: right;
+    color: white;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.follow-us{
+    text-align: center;
+    margin: 20px 0px 10p;
+}
+.social-icons-waitlist{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social-icons-waitlist a{
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(112, 93, 93);
+}
+.social-icons-waitlist a:hover{
+    color: rgb(14, 14, 14);
+}
+
+.comingsoon-box{
+    display: block;
+    border: 1px solid #21478871;
+    width: 100%;
+    height: 35px;
+}
+.hideComingsoonText{
+    width: fit-content;
+    height: 685px;
+    margin: auto;
+    overflow: hidden;
+}
+.comingsoon-text{
+    text-align: center;
+    margin-top: -150px;
+    color: #214788;
+    font-weight: bold;
+    animation: comingText 7s infinite reverse ease-in-out;
+}
+@keyframes comingText {
+    from{
+        margin-left: -1450px;
+    }
+    to{
+        margin-right: -1350px;
+    }
+}
+

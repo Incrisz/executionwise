@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.header{
+    background-color: #214788;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.header h2{
+    color: white;
+    font-size: 2em;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 40px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.menu-icons{
+    display: flex;
+    font-size: 20px;
+}
+.fa-solid,
+.fa-regular{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+.fa-solid:hover,
+.fa-regular:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+/* ============================
+        Main Body
+=============================== */
+.main-body{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.main-body > h2{
+    margin: 50px 0px 30px;
+
+}
+/* ============================
+        subscription cards
+=============================== */
+.sub-cards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.card-tag{
+    background-color: #214788;
+    color: white;
+    text-align: center;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-container{
+    padding: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    box-shadow:  0.5px 2px 1.5px black;
+}
+.card-1,
+.card-2,
+.card-3{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    color:rgba(21, 21, 131, 0.918);
+    font-weight: 900;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border: 2px solid #214788;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #214788;
+    color: white;
+}
+
+
+/* ============================
+       Email Us PAGE
+=============================== */
+
+.header-sign-up{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgba(128, 128, 128, 0.205);
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo-signup  h2{
+    color: #214788;
+}
+.signup-user{
+    color: black;
+    font-size: 28px;
+}
+.signup-user:hover{
+    background-color: rgba(128, 128, 128, 0.377);
+}
+.reachout-form{
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.sign-up-title{
+    width: 150px;
+    margin: auto;
+    padding: 20px 0 0;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #214788;
+    color: rgba(21, 21, 131, 0.918);
+}
+input,
+textarea,
+select{
+    width: 97%;
+    margin: auto;
+    display: block;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+}
+select{
+    width: 100%;
+}
+option{
+    color: rgba(0, 0, 0, 0.247);
+}
+.textarea-div{
+    margin-bottom: 50px;
+}
+textarea{
+    resize: none;
+    width: 97%;
+    margin: auto;
+    display: block;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+}
+.textarea-text-num{
+    margin: 5px 0px;
+    position: relative;
+    float: right;
+    opacity: 0.7;
+    font-size: 14px;
+}
+input[type="button"]{
+    margin-bottom: 0;
+    border: 2px solid #214788;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px 0px;
+}
+input[type="button"]:hover{
+    background-color: #214788;
+    color: white;
+}
+
+
+/* ============================
+        My Listing PAGE
+=============================== */
+.header-myListings{
+    background-color: white;
+    border: 3px solid rgba(128, 128, 128, 0.205);
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo .logo-myListing{
+    color: #214788;
+}
+.myList-menu ul{
+    display: inline-block;
+}
+.myList-menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+.myList-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.myList-menu ul li a:hover{
+    color: #214788;
+}
+.myList-menu ul li a.ex-pro{
+    padding: 8px 5px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: white;
+}
+.fa-myListing{
+    color: black;
+}
+.fa-myListing:hover{
+    color: #214788;
+    background-color: rgba(241, 241, 241, 0.795);
+}
+
+
+/*====================== 
+        User Page
+ ======================*/
+ .user-page{
+    width: 80%;
+    background-color: #f1f2f6;
+    height: auto;
+    margin: auto;
+    padding-bottom: 50px;
+    border: 2px solid rgba(128, 128, 128, 0.432);
+
+ }
+ .user-page{
+    border-top: none;
+ }
+.user-detail{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-bottom: 2px solid gray;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile .fa-solid{
+    color: gray;
+    font-size: 48px;
+}
+.user-name-work p{
+    margin: 0;
+}
+
+/* Listing and online meeting */
+.listing-meeting{
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+.listing-meeting button{
+    text-decoration: none;
+    color: grey;
+    padding: 20px 30px;
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+}
+.listing-meeting button:hover{
+    color: #214788;
+    border-bottom: 2px solid #214788d8;
+}
+.setup-active:active{
+    color: #214788;
+    border-bottom: 2px solid #214788d8;
+}
+.listing-active:active{
+    color: #214788;
+    border-bottom: 2px solid #214788d8;
+}
+
+/* Request meeting */
+.tooltip-click{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    /* border: 3px solid gray; */
+}
+.req-meeting{
+    padding: 20px 30px;
+    border: none;
+    font-weight: bold;
+    background-color: #214788d8;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tooltip-text{
+    width: 215px;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0px 0px 0px;
+    visibility: visible;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.req-meeting:hover .tooltip-text{
+    visibility: hidden;
+}
+
+
+
+/* listing cards */
+
+.listingCards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.listingCard-heart{
+    position: relative;
+}
+.fa-list-heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 26px;
+    color: #214788;
+    background-color: rgba(231, 231, 231, 0.774);
+    padding: 10px;
+    border-radius: 50%;
+}
+.listingCard-1{
+    width: 350px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    background-color: #fff;
+    color: rgb(71, 71, 71);
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.listingCard-1 img{
+    border-radius: 15px;
+}
+.listingCards-text{
+    padding: 15px 15px 5px;
+}
+.listingCards-text > h2{
+    margin: 0;
+}
+.creator-name-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.creator-name-rating>p{
+    color: rgba(109, 109, 109, 0.712);
+}
+.rating-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating-star-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: gold;
+}
+.rating-star-number > .fa-solid{
+    padding: 0;
+    color: gold;
+}
+.price-verified{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.offer-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.price{
+    font-size: 32px;
+    margin: 0;
+    margin-left: 5px;
+    
+}
+.verified > .fa-solid{
+    color: #214788;;
+}

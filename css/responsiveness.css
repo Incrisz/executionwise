@@ -1,0 +1,154 @@
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: initial;
+    }
+
+    /*========================== 
+         Index Responsive Css 
+    ===========================*/
+    .header h1 {
+        font-size: 1.7em;
+        margin: 50px 50px 50px;
+    }
+
+    .main-body {
+        width: 82.5%;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .main-body>h2 {
+        margin: 28px 0px 12px;
+        text-align: center;
+        font: 14px;
+    }
+
+    .sub-cards {
+        flex-direction: column;
+    }
+
+    .cards {
+        margin: 20px 0px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 300px;
+        height: 350px;
+        position: relative;
+    }
+
+
+    /*========================== 
+         Waitlist Responsive Css 
+    ===========================*/
+    .logo h2{
+        margin: 5px;
+    }
+    .thanks{
+        margin-top: 2000px;
+    }
+    .hideComingsoonText{
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .waitlist-border{
+        width: fit-content;
+        margin: unset;
+        height: fit-content;
+        padding-top: unset;
+    }
+    .waitlist{
+        max-width: 100%;
+        padding: 0px 10px;
+    }
+    .exe-membersip > h1{
+        font-size: 1.5em;
+    }
+    .waitlist-input > i{
+        padding: 0px 3px;
+    }
+    .waitlist-button{
+
+    }
+    .waitlist-form{
+        width: 100%;
+        margin: auto;
+    }
+    .comingsoon-text{
+        margin-top: -50px;
+    }
+    .comingsoon-text{
+        animation: comingText 6s infinite reverse ease-in-out;
+    }
+    @keyframes comingText {
+        from{
+            margin-left: -1200px;
+        }
+        to{
+            margin-right: -1130px;
+        }
+    }
+
+
+    /*========================== 
+         congratulatory Message
+             Responsive Css 
+    ===========================*/
+    .thanks{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+    } 
+    .dav-paul{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f1f2f6;
+        border-radius: 10px;
+    }
+    .dav-paul > img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;        
+    }
+    .dav-paul > p{
+        margin: 10px 10px 10px 0px;        
+    }
+    .questions{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+   
+    /* footer */
+    .footer-social-reserve{
+        display: block;
+        text-align: center;
+    }
+    .social{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /*========================== 
+             Message
+             Responsive Css 
+    ===========================*/
+    .msg-container{
+        min-width: 200px;
+        height: 600px;
+    }
+    .msg-recieved{
+        width: 100px;
+        border-right: 2px solid rgba(0, 0, 0, 0.425);
+    }
+
+}

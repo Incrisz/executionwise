@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 110%;
+    background-color: #f1f2f6;
+}
+.header{
+    background-color: #214788;
+    width: 100vw;
+    height: auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.header h2{
+    color: white;
+    font-size: 2em;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 40px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.menu-icons{
+    display: flex;
+    font-size: 20px;
+}
+.fa-menu-icon{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+.fa-menu-icon:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.msg-container{
+    width: 800px;
+    min-width: 100px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+}
+.msg-recieved{
+    width: 300px;
+    border-right: 2px solid rgba(0, 0, 0, 0.425);
+}
+.msg-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.msg-pple{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
+.msg-pple > i,
+.msgnr > i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+}
+.msg-pple:hover{
+    background-color: #f1f2f6;
+}
+.fa-pen-to-square{
+    color: black;
+}
+
+
+/* messenger */
+.msg{
+    width: 100%;
+}
+.msgnr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.msg-box{
+    width: 300px;
+    height: fit-content;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #e0e3f0;
+    border-radius: 10px;
+    padding: 20px 10px 10px;
+}
+.msg-box > p{
+    font-size: 20px;
+}
+.msg-box > p:first-child{
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.join-save{
+    display: flex;
+    text-align: center;
+}
+.join,
+.save{
+    border: 1px solid #214788;
+    color: #214788;
+    margin: 0px 3px;
+    padding: 15px 8px;
+    border-radius: 10px;
+}
+.join:hover,
+.save:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #214788e5;
+}
+.req-resch{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 30px 0px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #214788e5;
+}
+.req-resch:hover{
+    cursor: pointer;
+    background-color: #214788;
+}
